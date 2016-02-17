@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx" width="687" height="662">
+
+	<fx:Script>
+		<![CDATA[
+			import com.swfdiy.data.ABC;
+			import com.swfdiy.data.ABC.ConstantPool;
+			import com.swfdiy.data.ABCStream;
+			import com.swfdiy.data.SWF;
+			import com.swfdiy.data.SWFTag;
+			import com.swfdiy.data.SWFTag.TagDoABC;
+			import com.swfdiy.data.SWFTag.TagSymbolClass;
+			import com.swfdiy.data.helper.IndexMap;
+			
+			import flash.display.Loader;
+			import flash.net.FileReference;
+			
+			import mx.collections.ArrayCollection;
+			import mx.controls.Alert;
+			import mx.core.UIComponent;
+			import mx.events.ItemClickEvent;
+			
+			
+			
+			[Bindable]
+			private var symbolList:ArrayCollection;
+			
+			private var loader:Loader;
+			
+			private var swf:SWF;
+			private var tags_bytes:Array;
+			private var targetABCTag:ByteArray;
+			private var replaceABCTagN:int = 1;
+			
+			protected function onClickTest(event:MouseEvent):void
+			{
+				var allFilter:FileFilter = new FileFilter("swf (*.swf)", "*.swf");
+				
+				Utils.openAndReadFile(_onClickTest, allFilter);
+			}
+			
+			private function _onClickTest(data:Array, files:Array):void {			
+				//loader = new Loader();
+				//loader.loadBytes(file.data);
+				
+				swf = new SWF(data[0]);
+				
+				swf.startReadTags();				
+				//symbolList = new ArrayCollection();
+				var abcTagCount:int = 0;
+				tags_bytes = [];
+				
+				var dump_str:String = "";
+				while(1) {
+					var start_pos:int = swf.pos;
+					var tag:SWFTag = swf.read_tag() ;
+					var end_pos:int = swf.pos;
+					
+					if (tag == null) {
+						break;
+					}
+					
+					trace(tag.id + "," + tag.length );
+					var tag_byte:ByteArray = swf.get_bytes(start_pos, end_pos);
+					if (tag is TagSymbolClass) {
+						var tagSymbolClass:TagSymbolClass =tag as TagSymbolClass;
+						
+						//Debug.array(tagSpecific.Symbols);
+						for (var i:int=0;i<tagSymbolClass.Symbols.length;i++) {
+							//symbolList.addItem(
+							//tagSpecific.Symbols[i]
+							
+							trace(tagSymbolClass.Symbols[i]);
+							//);
+						}
+						
+					} else if (tag is TagDoABC) {
+						var tagDoABC:TagDoABC =  tag as TagDoABC;
+						trace("tagname:" + tagDoABC.Name);
+						
+						
+						var s:String = tagDoABC.dump();
+						dump_str += s;
+						
+						//trace(s);
+						
+						
+						
+						if (needTag.selected) {
+							save_file(tag_byte,files[0] + "_tag/" + abcTagCount + ".tag" );
+						}
+						
+						
+						/*
+						var f:FileStream = new FileStream();
+						var file:File = File.desktopDirectory.resolvePath(abcTagCount + ".abc");
+						f.open(file,  FileMode.WRITE);
+						f.writeBytes(tag.rawdata, 0);
+						f.close();
+						abcTagCount++;
+						*/
+						
+						if (replaceABCTagN == abcTagCount) {
+							targetABCTag = tag_byte;
+						}
+						
+						var pn:String = tagDoABC.Name.replace(/\//g, ".");
+						
+						if (needABC.selected){
+							
+							save_file(tagDoABC.get_abc_bytes(),files[0] + "_abc/" + abcTagCount + '_' + pn + ".abc" );
+						}
+						abcTagCount++;
+						
+						
+					}
+					
+					tags_bytes.push(tag_byte);
+					
+					
+				}
+				
+				
+				var sb:ByteArray = new ByteArray;
+				sb.writeUTFBytes(dump_str);
+				save_file(sb, files[0] + ".dump.txt");
+				
+			}
+			
+			private function save_file(data:ByteArray, fileName:String):void {
+				var f:FileStream = new FileStream();
+				var file:File = File.desktopDirectory.resolvePath(fileName);
+				f.open(file,  FileMode.WRITE);
+				f.writeBytes(data, 0);
+				f.close();
+				
+				txt.appendText("saved.." + fileName + "\n");
+			}
+			
+			protected function onClickInsert(event:MouseEvent):void
+			{
+				var allFilter:FileFilter = new FileFilter("tag (*.tag)", "*.tag");
+				Utils.openAndReadFile(_onClickInsert, allFilter);
+			}
+			
+			
+			private function _onClickInsert(data:Array, files:Array):void {	
+				
+				//replace
+				var new_tags_bytes:Array = [];
+				for (var i:int =0 ;i<tags_bytes.length;i++) {
+					if (tags_bytes[i]!=targetABCTag) {
+						new_tags_bytes.push(tags_bytes[i]);
+					} else {
+						new_tags_bytes.push(data[0]);
+					}
+						
+				}
+				
+				var new_swf_bytes:ByteArray = swf.make_swf_bytes_from_tags(new_tags_bytes);
+				var f:FileStream = new FileStream();
+				var file:File = File.desktopDirectory.resolvePath(files[0] + ".new.swf");
+				f.open(file,  FileMode.WRITE);
+				f.writeBytes(new_swf_bytes, 0);
+				f.close();
+			}
+
+			protected function onUncompress(event:MouseEvent):void
+			{
+				var f:FileStream = new FileStream();
+				var file:File = File.desktopDirectory.resolvePath("uncompress.swf");
+				f.open(file,  FileMode.WRITE);
+				f.writeBytes(swf.get_uncompress_bytes(), 0);
+				f.close(); 
+			}
+
+			protected function onClickParseABC(event:MouseEvent):void
+			{
+				var allFilter:FileFilter = new FileFilter("abc (*.abc)", "*.abc");
+
+				Utils.openAndReadFile(_onClickParseABC, allFilter);
+			}
+			
+			private function _onClickParseABC(datas:Array, files:Array):void {
+				var _abc:ABC = new ABC();
+				var a:ByteArray = datas[0];
+				_abc.data = new ABCStream(a);
+				var sb:ByteArray = new ByteArray;
+				
+				
+				sb.writeUTFBytes(_abc.dump());
+				save_file(sb, files[0] + ".txt");
+				
+			}
+				
+				
+
+
+			protected function onMergeABC(event:MouseEvent):void
+			{
+				var allFilter:FileFilter = new FileFilter("abc (*.abc)", "*.abc");
+				
+				Utils.openAndReadFiles(_onMergeABC, allFilter);
+			}
+			
+			private function _onMergeABC(datas:Array, files:Array): void {
+				if (files.length < 2) {
+					return;
+				}
+				
+				var i:int;
+				var j:int;
+				var abc_list:Array = [];
+				var classMap:Object = {};
+				var superClassList:Object  = [];
+				var beDecpendencied:Array = [];
+				var dependencied:Array = [];
+				for (i=0;i<datas.length;i++) {
+					var _abc:ABC = new ABC();
+					_abc.data = new ABCStream(datas[i]);
+					abc_list.push(_abc);
+					
+					superClassList[i] = [];
+					beDecpendencied[i] = [];
+					dependencied[i] = 0;
+					for (j=0;j<_abc.instances.length;j++) {
+						superClassList[i].push(_abc.instances[j].superNameStr());
+						classMap[_abc.instances[j].nameStr()] = i;
+						trace(_abc.instances[j].nameStr() + "," + _abc.instances[j].superNameStr() );
+					}
+				}
+				
+				//figour out the classes defined in the abc file and the class dependecy
+				//then sort the abc_list 
+				var k:int;
+				var s:int;
+				for (i=0;i<datas.length;i++) {
+					for (j=0;j<superClassList[i].length;j++) {
+						var want_super:String = superClassList[i][j];
+						if (classMap[want_super] == null) {
+							continue;
+						}
+						var superAt:int = classMap[want_super];
+						
+						beDecpendencied[superAt].push(i);
+						dependencied[i]++;
+					}
+				}
+				//topology  sort
+				var sortResult:Array = [];
+				while(1) {
+					var len:int = sortResult.length;
+					for (i=0;i<dependencied.length;i++) {
+						if (dependencied[i] == -1) {
+							continue;
+						}
+						if (dependencied[i] == 0) {
+							sortResult.push(i);
+							for (j=0;j<beDecpendencied[i].length;j++) {
+								dependencied[ beDecpendencied[i][j] ]--;
+							}
+							dependencied[i] = -1;
+						}
+					}
+					if (len == sortResult.length) {
+						break;
+					}
+				}
+				
+				if (sortResult.length < datas.length) {
+					txt.appendText("there are some cycle-class-dependency in the ABC file");
+					sortResult = [];
+					for (i=0;i<datas.length;i++) {
+						sortResult[i] = i;
+					}
+				}
+				
+			
+				
+				for (i=0;i<sortResult.length;i++) {
+					var n:int = sortResult[i];
+					trace(files[n]);
+				}
+				
+				
+				
+				
+				
+				//start merge
+				var _abc1:ABC = abc_list[sortResult[0]];
+				//insert constantpool , don't fix the duplicated string or numbers
+				
+				for (i=1;i<sortResult.length;i++) {
+					var n:int = sortResult[i];
+					var map:IndexMap = new IndexMap;
+					_abc1.merge(abc_list[n], map);
+					abc_list[n].updateIndex(map);
+				}
+				
+				
+				//insert else of abc2 to abc1
+				//..
+				
+				//save _abc1
+				
+				var sb:ByteArray = new ByteArray;
+				var str:String = 'a___merge.abc';
+				_abc1.dumpRawData(sb);
+				save_file(sb, str);
+				
+				sb = new ByteArray;
+				sb.writeUTFBytes(_abc1.dump());
+				str = 'a___merge.txt';
+				save_file(sb, str);
+				
+			}
+
+
+			protected function onParseDumpABC(event:MouseEvent):void
+			{
+				var allFilter:FileFilter = new FileFilter("abc (*.abc)", "*.abc");
+				
+				Utils.openAndReadFiles(_onParseDumpABC, allFilter);
+			}
+			
+			private function _onParseDumpABC(datas:Array, files:Array):void {
+				
+				
+				var abc:ABC = new ABC();
+				abc.data = new ABCStream(datas[0]);
+				var sb:ByteArray = new ByteArray;
+				var pool:ConstantPool = abc.constant_pool;
+				var map:IndexMap = new IndexMap;
+				//merge classes, instances, scripts
+				var i:int;
+				
+				for (i=1;i<pool.int_count;i++) {
+					map.add("int", i, i);
+				
+				}
+				
+				for (i=1;i<pool.uint_count;i++) {
+					map.add("uint", i, i);
+				}
+				
+				for (i=1;i<pool.double_count;i++) {
+					map.add("double", i, i);
+				}
+				
+				for (i=1;i<pool.string_count;i++) {
+					map.add("string", i, i);
+				}
+				
+				for (i=1;i<pool.namespace_count;i++) {
+					map.add("namespace", i, i);
+				}
+				
+				for (i=1;i<pool.ns_set_count;i++) {
+					map.add("ns_set", i, i);
+				}
+				
+				for (i=1;i<pool.multiname_count;i++) {
+					map.add("multiname", i, i);
+				}
+				
+				
+				for (i=0;i<abc.method_count;i++) {
+					map.add("method", i, i);
+				}
+				
+				for (i=0;i<abc.metadata_count;i++) {
+					map.add("metadata", i, i);
+				}
+				
+				
+				for (i=0;i<abc.class_count;i++) {
+					map.add("class", i, i);
+					map.add("instance", i, i);
+				}
+				
+				
+				for (i=0;i<abc.script_count;i++) {
+					map.add("script", i, i);
+				}
+				
+				for (i=0;i<abc.method_body_count;i++) {
+					map.add("methodbody", i, i);
+				}
+				
+				
+				abc.updateIndex(map);
+				
+				abc.dumpRawData(sb);
+				
+				save_file(sb, files[0] + '.test.abc');
+			}
+
+
+			protected function onTestU32(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				var sb:ByteArray = new ByteArray;
+				var stream:ABCStream = new ABCStream(sb);
+				stream.write_u32(120);
+				stream.write_u32(23443); //1 0110111  0010011
+				stream.write_u32(2324323);
+				stream.write_u32(999999999);
+				stream.pos = 0;
+				trace(stream.read_u32());
+				trace(stream.read_u32());
+				trace(stream.read_u32());
+				trace(stream.read_u32());
+				
+				//stream.pos = 0;
+				//stream.rawdata.writeByte(-50);
+				//stream.pos = 0;
+				//trace(stream.rawdata.readUnsignedByte());
+				
+				stream.pos = 0;
+				stream.write_s24(12120);
+				stream.write_s24(-51210);
+				stream.pos = 0;
+				trace(stream.read_s24());
+				trace(stream.read_s24());
+			}
+
+		]]>	
+	</fx:Script>
+
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:Button x="25" y="99" label="swf -&gt; txt  (tag|abc)" click="onClickTest(event)" width="122"/>
+	<s:TextArea x="326" y="12" width="306" height="642" id="txt"/>
+	<s:Button x="24" y="40" label="INSERT TAG" click="onClickInsert(event)" enabled="false"/>
+	<s:Button x="25" y="69" label="Uncompress" click="onUncompress(event)" enabled="false"/>
+	<s:Button x="24" y="128" label="abc-&gt;txt" width="123" click="onClickParseABC(event)"/>
+	<s:Button x="24" y="193" label="abc + abc -&gt; abc|txt" click="onMergeABC(event)" width="148"/>
+	<s:Button x="25" y="160" label="test abc-&gt;abc" width="122" click="onParseDumpABC(event)"/>
+	<s:Button x="24" y="357" label="test read u32" click="onTestU32(event)"/>
+	<s:CheckBox x="155" y="100" label="abctag" id="needTag"/>
+	<s:CheckBox x="217" y="100" label="abc" id="needABC" width="47" selected="true"/>
+</s:WindowedApplication>

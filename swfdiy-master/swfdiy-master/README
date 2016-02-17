@@ -1,0 +1,5 @@
+swf library for dumping abc and hacking tags
+
+stable/ :       the release directory
+swfdiylib/:     library
+tools/:         tools for demo or other usages

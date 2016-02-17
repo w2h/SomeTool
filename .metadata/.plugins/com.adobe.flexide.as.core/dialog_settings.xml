@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="flexide.as.quick.outline.settings">
+		<item value="500" key="com.adobe.flexide.as.core.ui.outliner.QuickActionScriptOutlineDialogDIALOG_WIDTH"/>
+		<item value="400" key="com.adobe.flexide.as.core.ui.outliner.QuickActionScriptOutlineDialogDIALOG_HEIGHT"/>
+		<item value="802" key="com.adobe.flexide.as.core.ui.outliner.QuickActionScriptOutlineDialogDIALOG_X_ORIGIN"/>
+		<item value="true" key="com.adobe.flexide.as.core.ui.outliner.QuickActionScriptOutlineDialogDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="true" key="com.adobe.flexide.as.core.ui.outliner.QuickActionScriptOutlineDialogDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="328" key="com.adobe.flexide.as.core.ui.outliner.QuickActionScriptOutlineDialogDIALOG_Y_ORIGIN"/>
+	</section>
+</section>

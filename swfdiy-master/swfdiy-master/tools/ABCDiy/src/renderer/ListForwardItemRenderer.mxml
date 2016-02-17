@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:GridItemRenderer xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					xmlns:s="library://ns.adobe.com/flex/spark" 
+					xmlns:mx="library://ns.adobe.com/flex/mx">
+	
+	<fx:Script>
+		<![CDATA[
+			protected function forward_click(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				
+				var focusEvent:String = CustomGridColumn(this.column).forwardEvent;
+				var valueField:String = CustomGridColumn(this.column).valueField;
+				var e:MyEvent = new MyEvent(focusEvent,true);
+				e.data = data[valueField];
+				owner.dispatchEvent(e);
+			}
+			
+			override  public function set data(value:Object):void
+			{
+				super.data = value;
+				if (data == null) {
+					return;
+				}
+				var valueField:String = CustomGridColumn(this.column).valueField;
+				if (data[valueField]  != null) {
+					forward_button.visible = true;
+				} else {
+					forward_button.visible = false;
+				}
+			}
+			
+			private function lbl_link(evt:TextEvent):void {
+				var reg:RegExp = /(\w+)-(\w+)/;
+				var result:* = evt.text.match(reg);
+				if (result && result.length >=2) {
+					var e:MyEvent = new MyEvent(result[1],true);
+					e.data = result[2];
+					owner.dispatchEvent(e);
+				}
+				
+				
+			}
+		]]>
+	</fx:Script>
+	
+	<s:Label id="labelDisplay" paddingLeft="10" width="83%" height="15"  verticalAlign="middle" verticalCenter="0" maxDisplayedLines="1" lineBreak="explicit"/>
+	<s:Button id="forward_button" click="forward_click(event)" right="2" verticalCenter="0" width="14" height="15" fontSize="9" icon="assets/more.png"/>
+	
+</s:GridItemRenderer>

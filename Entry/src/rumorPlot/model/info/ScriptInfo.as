@@ -1,0 +1,73 @@
+package rumorPlot.model.info
+{
+   public class ScriptInfo
+   {
+       
+      public var cmd:String;
+      
+      public var name:String;
+      
+      public var className:String;
+      
+      public var paramArg:rumorPlot.model.info.ParamArgInfo;
+      
+      public function ScriptInfo()
+      {
+         super();
+      }
+      
+      public function decode(param1:XML) : void
+      {
+         this.cmd = param1.@cmd;
+         this.name = param1.@name;
+         this.className = param1.@className;
+         var _loc2_:XMLList = param1.ParamArg;
+         if(_loc2_ && _loc2_.length())
+         {
+            this.paramArg = new rumorPlot.model.info.ParamArgInfo();
+            this.paramArg.decode(_loc2_[0]);
+         }
+      }
+      
+      public function update(param1:ScriptInfo) : void
+      {
+         this.name = param1.name;
+         this.className = param1.className;
+         if(!this.paramArg && param1.paramArg)
+         {
+            this.paramArg = new rumorPlot.model.info.ParamArgInfo();
+         }
+         this.paramArg && this.paramArg.update(param1.paramArg);
+      }
+      
+      public function copyBaseInfo(param1:ScriptInfo) : void
+      {
+         this.cmd = param1.cmd;
+         if(param1.paramArg)
+         {
+            this.paramArg = new rumorPlot.model.info.ParamArgInfo();
+            this.paramArg.copyBaseInfo(param1.paramArg);
+         }
+      }
+      
+      public function clone() : ScriptInfo
+      {
+         var _loc1_:ScriptInfo = new ScriptInfo();
+         _loc1_.decode(this.encode());
+         return _loc1_;
+      }
+      
+      public function encode() : XML
+      {
+         var _loc1_:XML = <ScriptInfo/>;
+         this.cmd && (_loc1_.@cmd = this.cmd);
+         this.name && (_loc1_.@name = this.name);
+         this.className && (_loc1_.@className = this.className);
+         if(this.paramArg)
+         {
+            _loc1_.appendChild(this.paramArg.encode());
+         }
+         return _loc1_;
+      }
+   }
+}
