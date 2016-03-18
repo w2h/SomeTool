@@ -1,8 +1,0 @@
-#Fri Jan 22 16:49:01 CST 2016
-org.eclipse.debug.ui.switch_perspective_on_suspend=never
-pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
-eclipse.preferences.version=1
-preferredDetailPanes=\u9ED8\u8BA4\u8BE6\u60C5\u9762\u677F\:\u9ED8\u8BA4\u8BE6\u60C5\u9762\u677F|
-preferredTargets=default\:default|
-pref_state_memento.org.eclipse.debug.ui.ExpressionView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.ExpressionView"/>\r\n</VariablesViewMemento>
-org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
