@@ -10,25 +10,27 @@ package controller
 	import flash.filesystem.FileMode;
 	import flash.filesystem.FileStream;
 	import flash.utils.ByteArray;
+	import flash.utils.CompressionAlgorithm;
 	import flash.utils.Dictionary;
-	
-	import apparat.lzma.LZMADecoder;
 	
 	import nochump.util.zip.ZipEntry;
 	import nochump.util.zip.ZipFile;
 	
-	import org.aswing.AsWingUtils;
 	import org.aswing.JOptionPane;
 	
 	import ru.inspirit.lzma.LZMAEncoder;
 	
-	import util.decryptSWF;
-	
 	import utils.FileUtils;
 	import utils.LZMA;
+	
 
 	public class BytesToolsController
 	{
+		public static const COMPRESSHEAD_1:String = "FWS";
+		public static const COMPRESSHEAD_2:String = "CWS";
+		public static const COMPRESSHEAD_3:String = "ZWS";
+		
+		
 		private var _file:File;
 		private var _bytes:ByteArray;
 		public function BytesToolsController(file:File)
@@ -208,6 +210,66 @@ package controller
 			src.readBytes(bytes,124,src.bytesAvailable -121);
 			src.readBytes(bytes,3);
 			return bytes;
+		}
+		
+		public function uncompressswf():void
+		{
+			var bytes:ByteArray = new ByteArray();
+			_bytes.position = 0;
+			_bytes.readBytes(bytes, 0, 8);
+			var tempBytes:ByteArray = new ByteArray();
+			_bytes.readBytes(tempBytes);
+			if(_bytes[0] == 67){
+				tempBytes.uncompress();
+			}else if(_bytes[0] == 90){
+				tempBytes.uncompress(CompressionAlgorithm.LZMA);
+			}
+			tempBytes.position = 0;
+			tempBytes.readBytes(bytes, 8);
+			bytes[0] = 70;
+			var file:File = new File(FileUtils.creatTempFilePath(_file,"uncpressswf"));
+			var stream:FileStream = new FileStream();
+			stream.open(file, FileMode.WRITE);
+			stream.writeBytes(bytes);
+			stream.close();
+		}
+		
+		public function compressswf_zws():void
+		{
+			
+			var swfBytes:ByteArray=new ByteArray();
+			swfBytes.writeBytes(_bytes,8);
+			
+			var FileLength:int=swfBytes.length+8;
+			
+			//ByteArray.compress(CompressionAlgorithm.LZMA)没法像 lzma.exe 那样传"-eos"（或其它参数）进去，只好FileLength多加8
+			FileLength+=8;//不加8，SWF文件就不能运行；加8，SWF文件的 stage.loaderInfo.bytes 后面就多8个0
+			
+			var zwsData:ByteArray=new ByteArray();
+			zwsData.writeUTFBytes("ZWS");
+			zwsData[3]=_bytes[3];
+			zwsData[4]=FileLength;
+			zwsData[5]=FileLength>>8;
+			zwsData[6]=FileLength>>16;
+			zwsData[7]=FileLength>>24;
+			
+			swfBytes.compress(CompressionAlgorithm.LZMA);
+			
+			var compressed_size:int=swfBytes.length-13;
+			zwsData[8]=compressed_size;
+			zwsData[9]=compressed_size>>8;
+			zwsData[10]=compressed_size>>16;
+			zwsData[11]=compressed_size>>24;
+			
+			zwsData.position=12;
+			zwsData.writeBytes(swfBytes,0,5);//貌似都是 5d 00 00 10 00
+			zwsData.writeBytes(swfBytes,13);
+			
+			var file:File = new File(FileUtils.creatTempFilePath(_file,"zws"));
+			var stream:FileStream = new FileStream();
+			stream.open(file, FileMode.WRITE);
+			stream.writeBytes(zwsData);
+			stream.close();
 		}
 		
 		/**

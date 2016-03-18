@@ -41,6 +41,8 @@ package bytestools.view
 			
 			creatButton("compress");
 			creatButton("uncompress");
+			creatButton("uncompress_swf");
+			creatButton("compressswf_zws");
 			creatButton("zip");
 			creatButton("unzip");
 			creatButton("zws_swf");
@@ -143,6 +145,12 @@ package bytestools.view
 				case "descrypt_shenqu":
 					ctr.descryptShenqu();			
 					break
+				case "uncompress_swf":
+					ctr.uncompressswf();
+					break;
+				case "compressswf_zws":
+					ctr.compressswf_zws();
+					break;
 				default:
 					JOptionPane.showMessageDialog("提示", "没有此功能");
 					break;

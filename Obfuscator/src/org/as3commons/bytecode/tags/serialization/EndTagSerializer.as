@@ -20,6 +20,7 @@ package org.as3commons.bytecode.tags.serialization
       
       override public function write(param1:ByteArray, param2:ISWFTag) : void
       {
+		  
       }
    }
 }

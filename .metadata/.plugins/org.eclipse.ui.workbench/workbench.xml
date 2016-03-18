@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="41" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="250" y="250">
 <fastViewData fastViewLocation="1024"/>
@@ -15,7 +15,7 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -62,293 +62,25 @@
 <part id="25"/>
 <part id="26"/>
 <part id="27"/>
-<part id="28"/>
-<part id="29"/>
-<part id="30"/>
-<part id="31"/>
-<part id="32"/>
-<part id="33"/>
-<part id="34"/>
-<part id="35"/>
-<part id="36"/>
-<part id="37"/>
-<part id="38"/>
-<part id="39"/>
-<part id="40"/>
-<part id="41"/>
-<part id="42"/>
-<part id="43"/>
-<part id="44"/>
-<part id="45"/>
-<part id="46"/>
-<part id="47"/>
-<part id="48"/>
-<part id="49"/>
-<part id="50"/>
-<part id="51"/>
-<part id="52"/>
-<part id="53"/>
-<part id="54"/>
-<part id="55"/>
-<part id="56"/>
-<part id="57"/>
-<part id="58"/>
-<part id="59"/>
-<part id="60"/>
-<part id="61"/>
-<part id="62"/>
-<part id="63"/>
-<part id="64"/>
-<part id="65"/>
-<part id="66"/>
-<part id="67"/>
-<part id="68"/>
-<part id="69"/>
-<part id="70"/>
-<part id="71"/>
-<part id="72"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SwfBlur.java" partName="SwfBlur.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/SwfBlur.java" title="SwfBlur.java" tooltip="JavaSwfBlur/src/SwfBlur.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/SwfBlur.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="28" selectionOffset="860" selectionTopPixel="120"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SwfFile.java" partName="SwfFile.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/SwfFile.java" title="SwfFile.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/SwfFile.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/SwfFile.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="984" selectionOffset="7502" selectionTopPixel="3898"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LzmaAlone.java" partName="LzmaAlone.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/SevenZip/LzmaAlone.java" title="LzmaAlone.java" tooltip="JavaSwfBlur/src/SevenZip/LzmaAlone.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/SevenZip/LzmaAlone.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5899" selectionTopPixel="2860"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Encoder.java" partName="Encoder.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/SevenZip/Compression/LZMA/Encoder.java" title="Encoder.java" tooltip="JavaSwfBlur/src/SevenZip/Compression/LZMA/Encoder.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/SevenZip/Compression/LZMA/Encoder.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="40654" selectionTopPixel="20115"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCompress.java" partName="TestCompress.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/TestCompress.java" title="TestCompress.java" tooltip="JavaSwfBlur/src/TestCompress.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/TestCompress.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="264" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OutWindow.java" partName="OutWindow.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/SevenZip/Compression/LZ/OutWindow.java" title="OutWindow.java" tooltip="JavaSwfBlur/src/SevenZip/Compression/LZ/OutWindow.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/SevenZip/Compression/LZ/OutWindow.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="347" selectionTopPixel="30"/>
-</editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ByteToolsFrame.as" partName="ByteToolsFrame.as" path="F:/mywork4.7/ShowSwfClass/src/bytestools/view/ByteToolsFrame.as" title="ByteToolsFrame.as" tooltip="ShowSwfClass/src/bytestools/view/ByteToolsFrame.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShowSwfClass/src/bytestools/view/ByteToolsFrame.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3795" selectionTopPixel="1635"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1115" selectionTopPixel="510"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="LZMA.as" partName="LZMA.as" path="F:/mywork4.7/ShowSwfClass/src/utils/LZMA.as" title="LZMA.as" tooltip="ShowSwfClass/src/utils/LZMA.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShowSwfClass/src/utils/LZMA.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="569" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="BaseMultiname.as" partName="BaseMultiname.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/BaseMultiname.as" title="BaseMultiname.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/BaseMultiname.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/BaseMultiname.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="326" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LzmaBench.java" partName="LzmaBench.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/SevenZip/LzmaBench.java" title="LzmaBench.java" tooltip="JavaSwfBlur/src/SevenZip/LzmaBench.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/SevenZip/LzmaBench.java"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="QualifiedName.as" partName="QualifiedName.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/QualifiedName.as" title="QualifiedName.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/QualifiedName.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/QualifiedName.as"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Method_info.java" partName="Method_info.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/abc/Method_info.java" title="Method_info.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/abc/Method_info.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/abc/Method_info.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="459"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Instance_info.java" partName="Instance_info.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/abc/Instance_info.java" title="Instance_info.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/abc/Instance_info.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/abc/Instance_info.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="99"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseData.java" partName="BaseData.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/BaseData.java" title="BaseData.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/BaseData.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/BaseData.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RemoveObject2Tag.java" partName="RemoveObject2Tag.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/tags/RemoveObject2Tag.java" title="RemoveObject2Tag.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/tags/RemoveObject2Tag.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/tags/RemoveObject2Tag.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlaceObject2Tag.java" partName="PlaceObject2Tag.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/tags/PlaceObject2Tag.java" title="PlaceObject2Tag.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/tags/PlaceObject2Tag.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/tags/PlaceObject2Tag.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImportAssets2Tag.java" partName="ImportAssets2Tag.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/tags/ImportAssets2Tag.java" title="ImportAssets2Tag.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/tags/ImportAssets2Tag.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/tags/ImportAssets2Tag.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="79" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tag.java" partName="Tag.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/tags/Tag.java" title="Tag.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/tags/Tag.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/tags/Tag.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="617" selectionTopPixel="279"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DefineBitsLossless2Tag.java" partName="DefineBitsLossless2Tag.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/tags/DefineBitsLossless2Tag.java" title="DefineBitsLossless2Tag.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/tags/DefineBitsLossless2Tag.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/tags/DefineBitsLossless2Tag.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SymbolClassTag.java" partName="SymbolClassTag.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/tags/SymbolClassTag.java" title="SymbolClassTag.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/tags/SymbolClassTag.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/tags/SymbolClassTag.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="270"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TagTypes.java" partName="TagTypes.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/tags/TagTypes.java" title="TagTypes.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/tags/TagTypes.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/tags/TagTypes.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8934" selectionTopPixel="1719"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Zswf.java" partName="Zswf.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/Zswf.java" title="Zswf.java" tooltip="JavaSwfBlur/src/Zswf.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/Zswf.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1163" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DoAbcTag.java" partName="DoAbcTag.java" path="E:/workspace/txtianlong/JavaSwfBlur/src/com/road7/blurswf/data/tags/DoAbcTag.java" title="DoAbcTag.java" tooltip="JavaSwfBlur/src/com/road7/blurswf/data/tags/DoAbcTag.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaSwfBlur/src/com/road7/blurswf/data/tags/DoAbcTag.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="307" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ToolKit.as" partName="ToolKit.as" path="F:/mywork4.7/Entry/src/com/tencent/morefun/naruto/util/ext/ToolKit.as" title="ToolKit.as" tooltip="Entry/src/com/tencent/morefun/naruto/util/ext/ToolKit.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Entry/src/com/tencent/morefun/naruto/util/ext/ToolKit.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="5106" selectionTopPixel="1920"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Obfuscator.as" partName="Obfuscator.as" path="F:/mywork4.7/Obfuscator/src/Obfuscator.as" title="Obfuscator.as" tooltip="Obfuscator/src/Obfuscator.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/Obfuscator.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6426" selectionTopPixel="2205"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="PushButton.as" partName="PushButton.as" path="F:/mywork4.7/Obfuscator/src/com/bit101/components/PushButton.as" title="PushButton.as" tooltip="Obfuscator/src/com/bit101/components/PushButton.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/com/bit101/components/PushButton.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1489" selectionTopPixel="431"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Component.as" partName="Component.as" path="F:/mywork4.7/Obfuscator/src/com/bit101/components/Component.as" title="Component.as" tooltip="Obfuscator/src/com/bit101/components/Component.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/com/bit101/components/Component.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="675"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Component_Ronda.as" partName="Component_Ronda.as" path="F:/mywork4.7/Obfuscator/src/com/bit101/components/Component_Ronda.as" title="Component_Ronda.as" tooltip="Obfuscator/src/com/bit101/components/Component_Ronda.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/com/bit101/components/Component_Ronda.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ComboBox.as" partName="ComboBox.as" path="F:/mywork4.7/Obfuscator/src/com/bit101/components/ComboBox.as" title="ComboBox.as" tooltip="Obfuscator/src/com/bit101/components/ComboBox.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/com/bit101/components/ComboBox.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1890"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FileLoader.as" partName="FileLoader.as" path="F:/mywork4.7/Obfuscator/src/FileLoader.as" title="FileLoader.as" tooltip="Obfuscator/src/FileLoader.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/FileLoader.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="632" selectionTopPixel="75"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="BitmapAsset.as" partName="BitmapAsset.as" path="F:/mywork4.7/Obfuscator/src/mx/core/BitmapAsset.as" title="BitmapAsset.as" tooltip="Obfuscator/src/mx/core/BitmapAsset.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/mx/core/BitmapAsset.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1458" selectionTopPixel="180"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="VScrollBar.as" partName="VScrollBar.as" path="F:/mywork4.7/Obfuscator/src/com/bit101/components/VScrollBar.as" title="VScrollBar.as" tooltip="Obfuscator/src/com/bit101/components/VScrollBar.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/com/bit101/components/VScrollBar.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FontAsset.as" partName="FontAsset.as" path="F:/mywork4.7/Obfuscator/src/mx/core/FontAsset.as" title="FontAsset.as" tooltip="Obfuscator/src/mx/core/FontAsset.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/mx/core/FontAsset.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IAssetLayoutFeatures.as" partName="IAssetLayoutFeatures.as" path="F:/mywork4.7/Obfuscator/src/mx/core/IAssetLayoutFeatures.as" title="IAssetLayoutFeatures.as" tooltip="Obfuscator/src/mx/core/IAssetLayoutFeatures.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/mx/core/IAssetLayoutFeatures.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="BaseEnum.as" partName="BaseEnum.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/enum/BaseEnum.as" title="BaseEnum.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/enum/BaseEnum.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/enum/BaseEnum.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="364" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="BuiltIns.as" partName="BuiltIns.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/enum/BuiltIns.as" title="BuiltIns.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/enum/BuiltIns.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/enum/BuiltIns.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="917" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="LNamespace.as" partName="LNamespace.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/LNamespace.as" title="LNamespace.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/LNamespace.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/LNamespace.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="392" selectionTopPixel="0"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="RuntimeQualifiedName.as" partName="RuntimeQualifiedName.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/RuntimeQualifiedName.as" title="RuntimeQualifiedName.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/RuntimeQualifiedName.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/RuntimeQualifiedName.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ScriptInfo.as" partName="ScriptInfo.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/ScriptInfo.as" title="ScriptInfo.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/ScriptInfo.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/ScriptInfo.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="792" selectionTopPixel="401"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="RandomStringGenerator.as" partName="RandomStringGenerator.as" path="F:/mywork4.7/Obfuscator/src/RandomStringGenerator.as" title="RandomStringGenerator.as" tooltip="Obfuscator/src/RandomStringGenerator.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/RandomStringGenerator.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="26"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFUtils.as" partName="SWFUtils.as" path="F:/mywork4.7/Obfuscator/src/SWFUtils.as" title="SWFUtils.as" tooltip="Obfuscator/src/SWFUtils.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/SWFUtils.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="193466" selectionTopPixel="1275"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFFileIO.as" partName="SWFFileIO.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as" title="SWFFileIO.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1383" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="EndTag.as" partName="EndTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/EndTag.as" title="EndTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/EndTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/EndTag.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="441" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="StringUtils.as" partName="StringUtils.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/lang/StringUtils.as" title="StringUtils.as" tooltip="Obfuscator/src/org/as3commons/lang/StringUtils.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/lang/StringUtils.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="33901" selectionTopPixel="17085"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFWeaverFileIO.as" partName="SWFWeaverFileIO.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as" title="SWFWeaverFileIO.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6281" selectionTopPixel="1980"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SymbolClassTag.as" partName="SymbolClassTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/SymbolClassTag.as" title="SymbolClassTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/SymbolClassTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/SymbolClassTag.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="133" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbcSpec.as" partName="AbcSpec.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as" title="AbcSpec.as" tooltip="Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="2182" selectionTopPixel="660"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFSpec.as" partName="SWFSpec.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/util/SWFSpec.as" title="SWFSpec.as" tooltip="Obfuscator/src/org/as3commons/bytecode/util/SWFSpec.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/util/SWFSpec.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8619" selectionTopPixel="3866"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFFile.as" partName="SWFFile.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/swf/SWFFile.as" title="SWFFile.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFFile.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFFile.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3035" selectionTopPixel="1350"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbstractTag.as" partName="AbstractTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as" title="AbstractTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="128" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="DoABCSerializer.as" partName="DoABCSerializer.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/serialization/DoABCSerializer.as" title="DoABCSerializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/serialization/DoABCSerializer.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/serialization/DoABCSerializer.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1901" selectionTopPixel="446"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="RecordHeaderSerializer.as" partName="RecordHeaderSerializer.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/serialization/RecordHeaderSerializer.as" title="RecordHeaderSerializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/serialization/RecordHeaderSerializer.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/serialization/RecordHeaderSerializer.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="903" selectionTopPixel="41"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="RecordHeader.as" partName="RecordHeader.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/struct/RecordHeader.as" title="RecordHeader.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/struct/RecordHeader.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/struct/RecordHeader.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="240" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ITagSerializer.as" partName="ITagSerializer.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/serialization/ITagSerializer.as" title="ITagSerializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/serialization/ITagSerializer.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/serialization/ITagSerializer.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="352" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbcDeserializer.as" partName="AbcDeserializer.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as" title="AbcDeserializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="18609" selectionTopPixel="4200"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbstractAbcDeserializer.as" partName="AbstractAbcDeserializer.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as" title="AbstractAbcDeserializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2986" selectionTopPixel="593"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Opcode.as" partName="Opcode.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/enum/Opcode.as" title="Opcode.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/enum/Opcode.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/enum/Opcode.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="37691" selectionTopPixel="9135"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="DoABCTag.as" partName="DoABCTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as" title="DoABCTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="992" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="as3commons_bytecode.as" partName="as3commons_bytecode.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/as3commons_bytecode.as" title="as3commons_bytecode.as" tooltip="Obfuscator/src/org/as3commons/bytecode/as3commons_bytecode.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/as3commons_bytecode.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="86" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Obfuscator_HG.as" partName="Obfuscator_HG.as" path="F:/mywork4.7/Obfuscator/src/Obfuscator_HG.as" title="Obfuscator_HG.as" tooltip="Obfuscator/src/Obfuscator_HG.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/Obfuscator_HG.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="Obfuscator-app.xml" partName="Obfuscator-app.xml" path="F:/mywork4.7/Obfuscator/src/Obfuscator-app.xml" title="Obfuscator-app.xml" tooltip="Obfuscator/src/Obfuscator-app.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/Obfuscator-app.xml"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ReadableNameGenerator.as" partName="ReadableNameGenerator.as" path="F:/mywork4.7/Obfuscator/src/ReadableNameGenerator.as" title="ReadableNameGenerator.as" tooltip="Obfuscator/src/ReadableNameGenerator.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/ReadableNameGenerator.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="731" selectionTopPixel="0"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ClassInfoReference.as" partName="ClassInfoReference.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/emit/asm/ClassInfoReference.as" title="ClassInfoReference.as" tooltip="Obfuscator/src/org/as3commons/bytecode/emit/asm/ClassInfoReference.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/emit/asm/ClassInfoReference.as"/>
@@ -356,54 +88,101 @@
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MemberVisibility.as" partName="MemberVisibility.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/emit/enum/MemberVisibility.as" title="MemberVisibility.as" tooltip="Obfuscator/src/org/as3commons/bytecode/emit/enum/MemberVisibility.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/emit/enum/MemberVisibility.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="230" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Assert.as" partName="Assert.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/lang/Assert.as" title="Assert.as" tooltip="Obfuscator/src/org/as3commons/lang/Assert.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/lang/Assert.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="2927" selectionTopPixel="1110"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="270"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MethodBody.as" partName="MethodBody.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/MethodBody.as" title="MethodBody.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/MethodBody.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/MethodBody.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2695" selectionTopPixel="1170"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ScriptLimitsTag.as" partName="ScriptLimitsTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/ScriptLimitsTag.as" title="ScriptLimitsTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/ScriptLimitsTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/ScriptLimitsTag.as"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IllegalStateError.as" partName="IllegalStateError.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/lang/IllegalStateError.as" title="IllegalStateError.as" tooltip="Obfuscator/src/org/as3commons/lang/IllegalStateError.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/lang/IllegalStateError.as"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ISWFTag.as" partName="ISWFTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/ISWFTag.as" title="ISWFTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/ISWFTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/ISWFTag.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="61" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FrameLabelTag.as" partName="FrameLabelTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/FrameLabelTag.as" title="FrameLabelTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/FrameLabelTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/FrameLabelTag.as"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FileLoader.as" partName="FileLoader.as" path="F:/mywork4.7/Obfuscator/src/FileLoader.as" title="FileLoader.as" tooltip="Obfuscator/src/FileLoader.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/FileLoader.as"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FileAttributesTag.as" partName="FileAttributesTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/FileAttributesTag.as" title="FileAttributesTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/FileAttributesTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/FileAttributesTag.as"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="INameGenerator.as" partName="INameGenerator.as" path="F:/mywork4.7/Obfuscator/src/INameGenerator.as" title="INameGenerator.as" tooltip="Obfuscator/src/INameGenerator.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/INameGenerator.as"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="UnsupportedTag.as" partName="UnsupportedTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/UnsupportedTag.as" title="UnsupportedTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/UnsupportedTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/UnsupportedTag.as"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Obfuscator_HG.as" partName="Obfuscator_HG.as" path="F:/mywork4.7/Obfuscator/src/Obfuscator_HG.as" title="Obfuscator_HG.as" tooltip="Obfuscator/src/Obfuscator_HG.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/Obfuscator_HG.as"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SetBackgroundColorTag.as" partName="SetBackgroundColorTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/SetBackgroundColorTag.as" title="SetBackgroundColorTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/SetBackgroundColorTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/SetBackgroundColorTag.as"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Obfuscator.as" partName="Obfuscator.as" path="F:/mywork4.7/Obfuscator/src/Obfuscator.as" title="Obfuscator.as" tooltip="Obfuscator/src/Obfuscator.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/Obfuscator.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="900"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="NameUtil.as" partName="NameUtil.as" path="F:/mywork4.7/Obfuscator/src/mx/utils/NameUtil.as" title="NameUtil.as" tooltip="Obfuscator/src/mx/utils/NameUtil.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/mx/utils/NameUtil.as"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ProductInfoTag.as" partName="ProductInfoTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/ProductInfoTag.as" title="ProductInfoTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/ProductInfoTag.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/ProductInfoTag.as"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="BitmapAsset.as" partName="BitmapAsset.as" path="F:/mywork4.7/Obfuscator/src/mx/core/BitmapAsset.as" title="BitmapAsset.as" tooltip="Obfuscator/src/mx/core/BitmapAsset.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/mx/core/BitmapAsset.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="270"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFFile.as" partName="SWFFile.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/swf/SWFFile.as" title="SWFFile.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFFile.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFFile.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="832" selectionTopPixel="1350"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFWeaverFileIO.as" partName="SWFWeaverFileIO.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as" title="SWFWeaverFileIO.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="1075" selectionTopPixel="0"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFFileIO.as" partName="SWFFileIO.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as" title="SWFFileIO.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="41"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbstractTag.as" partName="AbstractTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as" title="AbstractTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Metadata.as" partName="Metadata.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/typeinfo/Metadata.as" title="Metadata.as" tooltip="Obfuscator/src/org/as3commons/bytecode/typeinfo/Metadata.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/typeinfo/Metadata.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="405"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="DoABCSerializer.as" partName="DoABCSerializer.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/serialization/DoABCSerializer.as" title="DoABCSerializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/serialization/DoABCSerializer.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/serialization/DoABCSerializer.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1902" selectionTopPixel="401"/>
 </editor>
-<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbcFileUtil.as" partName="AbcFileUtil.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/util/AbcFileUtil.as" title="AbcFileUtil.as" tooltip="Obfuscator/src/org/as3commons/bytecode/util/AbcFileUtil.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/util/AbcFileUtil.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2998" selectionTopPixel="2696"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="DoABCTag.as" partName="DoABCTag.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as" title="DoABCTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="1080" selectionTopPixel="180"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbstractAbcDeserializer.as" partName="AbstractAbcDeserializer.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as" title="AbstractAbcDeserializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="19451" selectionTopPixel="627"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbcDeserializer.as" partName="AbcDeserializer.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as" title="AbcDeserializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="22" selectionOffset="13631" selectionTopPixel="5850"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbcSpec.as" partName="AbcSpec.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as" title="AbcSpec.as" tooltip="Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2803" selectionTopPixel="870"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ConstantPool.as" partName="ConstantPool.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/ConstantPool.as" title="ConstantPool.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/ConstantPool.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/ConstantPool.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4457" selectionTopPixel="2265"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IConstantPool.as" partName="IConstantPool.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/IConstantPool.as" title="IConstantPool.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/IConstantPool.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/IConstantPool.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1200" selectionTopPixel="566"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ConstantKind.as" partName="ConstantKind.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/bytecode/abc/enum/ConstantKind.as" title="ConstantKind.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/enum/ConstantKind.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/bytecode/abc/enum/ConstantKind.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2961" selectionTopPixel="105"/>
+</editor>
+<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="BytesToolsController.as" partName="BytesToolsController.as" path="F:/mywork4.7/ShowSwfClass/src/controller/BytesToolsController.as" title="BytesToolsController.as" tooltip="ShowSwfClass/src/controller/BytesToolsController.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShowSwfClass/src/controller/BytesToolsController.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7929" selectionTopPixel="3540"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ClassUtils.as" partName="ClassUtils.as" path="F:/mywork4.7/Obfuscator/src/org/as3commons/lang/ClassUtils.as" title="ClassUtils.as" tooltip="Obfuscator/src/org/as3commons/lang/ClassUtils.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Obfuscator/src/org/as3commons/lang/ClassUtils.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="16786" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="表达式">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProgressView" partName="进度">
 <viewState/>
 </view>
@@ -417,6 +196,69 @@
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="调试">
 <viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="问题">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="问题">
+<expanded>
+<category IMemento.internal.id="错误"/>
+<category IMemento.internal.id="警告"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="348" org.eclipse.ui.ide.resourceField="241" org.eclipse.ui.ide.severityAndDescriptionField="695"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="包资源管理器">
+<viewState group_libraries="1" layout="2" linkWithEditor="1" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="控制台">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">
+<sorter>
+<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+<sort7 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory/>
+</viewState>
 </view>
 <view id="com.adobe.flexbuilder.packageexplorer" partName="包资源管理器">
 <viewState LINK_NAVIGATOR_TO_EDITOR="1" fpeIsFlat="0" fpeSortBy="1" sorter="1">
@@ -492,79 +334,14 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="大纲">
 <viewState/>
 </view>
-<view id="org.eclipse.debug.ui.ExpressionView" partName="表达式">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ProblemView" partName="问题">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="问题">
-<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="348" org.eclipse.ui.ide.resourceField="241" org.eclipse.ui.ide.severityAndDescriptionField="695"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
-</viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="控制台">
-<viewState/>
-</view>
-<view id="org.eclipse.jdt.ui.PackageExplorer" partName="包资源管理器">
-<viewState group_libraries="1" layout="2" linkWithEditor="1" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
-<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
-<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
-</xmlDefinedFilters>
-</customFilters>
-</viewState>
-</view>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
-<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
-<sorter groupBy="CATEGORY_QUERY">
-<sorter>
-<sort0 sortDirection="1" sortKey="PRIORITY"/>
-<sort1 sortDirection="1" sortKey="RANK"/>
-<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
-<sort3 sortDirection="1" sortKey="NONE"/>
-<sort4 sortDirection="1" sortKey="NONE"/>
-<sort5 sortDirection="1" sortKey="NONE"/>
-<sort6 sortDirection="1" sortKey="NONE"/>
-<sort7 sortDirection="1" sortKey="NONE"/>
-</sorter>
-</sorter>
-<filteredTreeFindHistory/>
-</viewState>
-</view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="声明">
 <viewState/>
 </view>
 <view id="com.adobe.flexbuilder.as.editor.asdocviewer" partName="ASDoc">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
-<viewState/>
-</view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.adobe.flexbuilder.mxml.editor.ui.perspectives.DevelopmentPerspectiveFactory" id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development" label="Flash"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.flashbridge.flashproject.actionSet"/>
@@ -731,7 +508,6 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
@@ -766,11 +542,11 @@
 <info folder="true" part="bottom" ratio="0.7303974" ratioLeft="680" ratioRight="251" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="问题"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="声明"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="控制台"/>
 <page content="org.eclipse.debug.ui.DebugView" label="调试"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="搜索"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -779,7 +555,6 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -809,193 +584,169 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/SWFUtils.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/serialization/RecordHeaderSerializer.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaSwfBlur/src/com/road7/blurswf/tool/FilesUtil.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/FileLoader.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/Obfuscator.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/abc/AbcFile.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/as3commons_bytecode.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/SWFUtils.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/Obfuscator_HG.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/Obfuscator/src/Obfuscator-app.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/RandomStringGenerator.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/ReadableNameGenerator.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/FileLoader.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/emit/asm/ClassInfoReference.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/emit/enum/MemberVisibility.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/abc/enum/BaseEnum.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/abc/MethodBody.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/ScriptLimitsTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/ISWFTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/FrameLabelTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/FileAttributesTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/EndTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/SymbolClassTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/UnsupportedTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/SetBackgroundColorTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/tags/ProductInfoTag.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/typeinfo/Metadata.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/abc/ConstantPool.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/abc/IConstantPool.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/abc/enum/ConstantKind.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/ShowSwfClass/src/bytestools/view/ByteToolsFrame.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/ShowSwfClass/src/controller/BytesToolsController.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/util/AbcFileUtil.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/abc/AbcFile.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/lang/ClassUtils.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Obfuscator/src/org/as3commons/bytecode/abc/enum/ConstantKind.as"/>
 </editors>
-<item historyLabel="AbcDeserializer.as" index="3">
-<position info="not_deleted" x="1609" y="0"/>
+<item historyLabel="AbcDeserializer.as" index="1">
+<position info="not_deleted" x="6538" y="0"/>
 </item>
 <item historyLabel="AbstractAbcDeserializer.as" index="4">
-<position info="not_deleted" x="2986" y="0"/>
+<position info="not_deleted" x="2562" y="0"/>
 </item>
-<item historyLabel="AbcDeserializer.as" index="3">
-<position info="not_deleted" x="8333" y="0"/>
+<item historyLabel="IConstantPool.as" index="5">
+<position info="not_deleted" x="778" y="11"/>
 </item>
-<item historyLabel="RecordHeaderSerializer.as" index="2">
-<position info="not_deleted" x="903" y="0"/>
+<item historyLabel="AbstractAbcDeserializer.as" index="4">
+<position info="not_deleted" x="2562" y="0"/>
 </item>
-<item historyLabel="SWFWeaverFileIO.as" index="1">
-<position info="not_deleted" x="6281" y="0"/>
+<item historyLabel="AbcFile.as" index="2">
+<position info="not_deleted" x="1253" y="7"/>
 </item>
-<item historyLabel="FilesUtil.java" index="5">
-<position info="not_deleted" x="698" y="43"/>
+<item historyLabel="AbcFile.as" index="2">
+<position info="not_deleted" x="1333" y="0"/>
 </item>
-<item historyLabel="FilesUtil.java" index="5">
-<position info="not_deleted" x="864" y="0"/>
+<item historyLabel="ConstantPool.as" index="3">
+<position info="not_deleted" x="3658" y="0"/>
 </item>
-<item historyLabel="SWFWeaverFileIO.as" index="1">
-<position info="not_deleted" x="6281" y="0"/>
+<item historyLabel="ConstantKind.as" index="6">
+<position info="not_deleted" x="794" y="6"/>
 </item>
-<item historyLabel="FileLoader.as" index="6">
-<position info="not_deleted" x="632" y="0"/>
+<item historyLabel="ConstantKind.as" index="6">
+<position info="not_deleted" x="3930" y="0"/>
 </item>
-<item historyLabel="Obfuscator.as" index="7">
-<position info="not_deleted" x="6424" y="0"/>
+<item historyLabel="ConstantKind.as" index="6">
+<position info="not_deleted" x="947" y="4"/>
 </item>
-<item historyLabel="Obfuscator.as" index="7">
-<position info="not_deleted" x="6647" y="0"/>
-</item>
-<item historyLabel="Obfuscator.as" index="7">
-<position info="not_deleted" x="6700" y="17"/>
-</item>
-<item historyLabel="Obfuscator.as" index="7">
-<position info="not_deleted" x="6882" y="0"/>
-</item>
-<item historyLabel="Obfuscator.as" index="7">
-<position info="not_deleted" x="6426" y="0"/>
-</item>
-<item historyLabel="SWFUtils.as" index="0">
-<position info="not_deleted" x="191297" y="0"/>
-</item>
-<item historyLabel="DoABCTag.as" index="8">
-<position info="not_deleted" x="992" y="0"/>
-</item>
-<item historyLabel="AbcFile.as" index="9">
-<position info="not_deleted" x="276" y="7"/>
-</item>
-<item historyLabel="DoABCTag.as" index="8">
-<position info="not_deleted" x="992" y="0"/>
-</item>
-<item historyLabel="SWFUtils.as" index="0">
-<position info="not_deleted" x="195036" y="0"/>
-</item>
-<item historyLabel="as3commons_bytecode.as" index="10">
+<item historyLabel="FileLoader.as" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="SWFUtils.as" index="11">
-<position info="not_deleted" x="195036" y="0"/>
+<item historyLabel="AbcFile.as" index="2">
+<position info="not_deleted" x="1333" y="0"/>
 </item>
-<item historyLabel="AbcDeserializer.as" index="12">
-<position info="not_deleted" x="8333" y="0"/>
-</item>
-<item historyLabel="SWFUtils.as" index="11">
-<position info="not_deleted" x="193466" y="0"/>
-</item>
-<item historyLabel="AbcDeserializer.as" index="12">
-<position info="not_deleted" x="18609" y="0"/>
-</item>
-<item historyLabel="Obfuscator_HG.as" index="13">
+<item historyLabel="FileLoader.as" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Obfuscator-app.xml" index="14">
+<item historyLabel="AbcFile.as" index="2">
+<position info="not_deleted" x="1333" y="0"/>
+</item>
+<item historyLabel="AbcDeserializer.as" index="1">
+<position info="not_deleted" x="6543" y="0"/>
+</item>
+<item historyLabel="AbstractAbcDeserializer.as" index="4">
+<position info="not_deleted" x="3087" y="0"/>
+</item>
+<item historyLabel="AbcDeserializer.as" index="1">
+<position info="not_deleted" x="6544" y="0"/>
+</item>
+<item historyLabel="AbstractAbcDeserializer.as" index="4">
+<position info="not_deleted" x="19451" y="0"/>
+</item>
+<item historyLabel="FileLoader.as" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="RandomStringGenerator.as" index="15">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AbstractAbcDeserializer.as" index="4">
+<position info="not_deleted" x="19451" y="0"/>
 </item>
-<item historyLabel="ReadableNameGenerator.as" index="16">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AbcDeserializer.as" index="1">
+<position info="not_deleted" x="6544" y="0"/>
 </item>
-<item historyLabel="FileLoader.as" index="17">
-<position info="not_deleted" x="632" y="0"/>
+<item historyLabel="AbstractAbcDeserializer.as" index="4">
+<position info="not_deleted" x="19451" y="0"/>
 </item>
-<item historyLabel="ClassInfoReference.as" index="18">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AbcDeserializer.as" index="1">
+<position info="not_deleted" x="6588" y="0"/>
 </item>
-<item historyLabel="MemberVisibility.as" index="19">
-<position info="not_deleted" x="1724" y="0"/>
+<item historyLabel="AbcDeserializer.as" index="1">
+<position info="not_deleted" x="6658" y="0"/>
 </item>
-<item historyLabel="BaseEnum.as" index="20">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AbcDeserializer.as" index="1">
+<position info="not_deleted" x="13631" y="22"/>
 </item>
-<item historyLabel="BaseEnum.as" index="20">
-<position info="not_deleted" x="364" y="0"/>
+<item historyLabel="IConstantPool.as" index="5">
+<position info="not_deleted" x="371" y="17"/>
 </item>
-<item historyLabel="MethodBody.as" index="21">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="IConstantPool.as" index="5">
+<position info="not_deleted" x="433" y="0"/>
 </item>
-<item historyLabel="SWFFileIO.as" index="22">
-<position info="not_deleted" x="1383" y="0"/>
+<item historyLabel="IConstantPool.as" index="5">
+<position info="not_deleted" x="1200" y="0"/>
 </item>
-<item historyLabel="ScriptLimitsTag.as" index="23">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ConstantPool.as" index="3">
+<position info="not_deleted" x="3658" y="0"/>
 </item>
-<item historyLabel="ISWFTag.as" index="24">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ByteToolsFrame.as" index="7">
+<position info="not_deleted" x="3763" y="0"/>
 </item>
-<item historyLabel="FrameLabelTag.as" index="25">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="BytesToolsController.as" index="8">
+<position info="not_deleted" x="7055" y="15"/>
 </item>
-<item historyLabel="FileAttributesTag.as" index="26">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ByteToolsFrame.as" index="7">
+<position info="not_deleted" x="3763" y="0"/>
 </item>
-<item historyLabel="EndTag.as" index="27">
-<position info="not_deleted" x="441" y="0"/>
+<item historyLabel="AbcFileUtil.as" index="9">
+<position info="not_deleted" x="3018" y="41"/>
 </item>
-<item historyLabel="DoABCTag.as" index="28">
-<position info="not_deleted" x="992" y="0"/>
+<item historyLabel="AbcFile.as" index="10">
+<position info="not_deleted" x="1333" y="0"/>
 </item>
-<item historyLabel="AbstractTag.as" index="29">
-<position info="not_deleted" x="128" y="0"/>
+<item historyLabel="AbcFile.as" index="10">
+<position info="not_deleted" x="6317" y="12"/>
 </item>
-<item historyLabel="SymbolClassTag.as" index="30">
-<position info="not_deleted" x="133" y="6"/>
+<item historyLabel="BytesToolsController.as" index="8">
+<position info="not_deleted" x="7632" y="0"/>
 </item>
-<item historyLabel="UnsupportedTag.as" index="31">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AbcFileUtil.as" index="9">
+<position info="not_deleted" x="3018" y="41"/>
 </item>
-<item historyLabel="SetBackgroundColorTag.as" index="32">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AbcFile.as" index="10">
+<position info="not_deleted" x="6317" y="12"/>
 </item>
-<item historyLabel="ProductInfoTag.as" index="33">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ClassUtils.as" index="11">
+<position info="not_deleted" x="16786" y="0"/>
 </item>
-<item historyLabel="Metadata.as" index="34">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="BytesToolsController.as" index="8">
+<position info="not_deleted" x="7632" y="0"/>
 </item>
-<item historyLabel="AbcFileUtil.as" index="35">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ConstantKind.as" index="12">
+<position info="not_deleted" x="947" y="4"/>
 </item>
-<item historyLabel="AbcSpec.as" index="36">
-<position info="not_deleted" x="2182" y="12"/>
+<item historyLabel="ConstantPool.as" index="3">
+<position info="not_deleted" x="4457" y="0"/>
 </item>
-<item active="true" historyLabel="AbcFileUtil.as" index="35">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ConstantKind.as" index="12">
+<position info="not_deleted" x="2961" y="0"/>
+</item>
+<item historyLabel="ByteToolsFrame.as" index="7">
+<position info="not_deleted" x="1115" y="0"/>
+</item>
+<item historyLabel="BytesToolsController.as" index="8">
+<position info="not_deleted" x="7929" y="0"/>
+</item>
+<item historyLabel="AbcFile.as" index="10">
+<position info="not_deleted" x="6317" y="12"/>
+</item>
+<item historyLabel="AbcFileUtil.as" index="9">
+<position info="not_deleted" x="2767" y="0"/>
+</item>
+<item historyLabel="AbcFile.as" index="10">
+<position info="not_deleted" x="6317" y="12"/>
+</item>
+<item historyLabel="AbcFileUtil.as" index="9">
+<position info="not_deleted" x="2767" y="0"/>
+</item>
+<item active="true" historyLabel="BytesToolsController.as" index="8">
+<position info="not_deleted" x="7929" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -1015,50 +766,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbcFileUtil.as" tooltip="Obfuscator/src/org/as3commons/bytecode/util/AbcFileUtil.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/util/AbcFileUtil.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ClassUtils.as" tooltip="Obfuscator/src/org/as3commons/lang/ClassUtils.as">
+<persistable path="/Obfuscator/src/org/as3commons/lang/ClassUtils.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Metadata.as" tooltip="Obfuscator/src/org/as3commons/bytecode/typeinfo/Metadata.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/typeinfo/Metadata.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="BytesToolsController.as" tooltip="ShowSwfClass/src/controller/BytesToolsController.as">
+<persistable path="/ShowSwfClass/src/controller/BytesToolsController.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ProductInfoTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/ProductInfoTag.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/ProductInfoTag.as"/>
+<file factoryID="com.adobe.flexbuilder.editors.derived.ui.startpage.StartPageEditorInput" id="com.adobe.flexbuilder.ui.StartPage" name="Web 浏览器" tooltip="Flash Builder 欢迎屏幕">
+<persistable iconpath="platform:/plugin/com.adobe.flexbuilder.ui/icons/fb_app_16.png" style="20" tooltip="Flash Builder 欢迎屏幕" url="file:/C:/Program Files/Adobe/Adobe Flash Builder 4.7 (64 Bit)/eclipse/plugins/com.adobe.flexbuilder.ui.nl1_4.7.0.349722/nl/zh/welcome/index.html?firstLaunch=false&amp;edition=prem&amp;version=470"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SetBackgroundColorTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/SetBackgroundColorTag.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/SetBackgroundColorTag.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ConstantKind.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/enum/ConstantKind.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/abc/enum/ConstantKind.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="UnsupportedTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/UnsupportedTag.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/UnsupportedTag.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IConstantPool.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/IConstantPool.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/abc/IConstantPool.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FileAttributesTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/FileAttributesTag.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/FileAttributesTag.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ConstantPool.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/ConstantPool.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/abc/ConstantPool.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FrameLabelTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/FrameLabelTag.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/FrameLabelTag.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbcSpec.as" tooltip="Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/util/AbcSpec.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ISWFTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/ISWFTag.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/ISWFTag.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbcDeserializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/io/AbcDeserializer.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ScriptLimitsTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/ScriptLimitsTag.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/ScriptLimitsTag.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbstractAbcDeserializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/io/AbstractAbcDeserializer.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MethodBody.as" tooltip="Obfuscator/src/org/as3commons/bytecode/abc/MethodBody.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/abc/MethodBody.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="DoABCTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/DoABCTag.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Assert.as" tooltip="Obfuscator/src/org/as3commons/lang/Assert.as">
-<persistable path="/Obfuscator/src/org/as3commons/lang/Assert.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="DoABCSerializer.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/serialization/DoABCSerializer.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/serialization/DoABCSerializer.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MemberVisibility.as" tooltip="Obfuscator/src/org/as3commons/bytecode/emit/enum/MemberVisibility.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/emit/enum/MemberVisibility.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbstractTag.as" tooltip="Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/tags/AbstractTag.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ClassInfoReference.as" tooltip="Obfuscator/src/org/as3commons/bytecode/emit/asm/ClassInfoReference.as">
-<persistable path="/Obfuscator/src/org/as3commons/bytecode/emit/asm/ClassInfoReference.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFFileIO.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFFileIO.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ReadableNameGenerator.as" tooltip="Obfuscator/src/ReadableNameGenerator.as">
-<persistable path="/Obfuscator/src/ReadableNameGenerator.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFWeaverFileIO.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFWeaverFileIO.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="Obfuscator-app.xml" tooltip="Obfuscator/src/Obfuscator-app.xml">
-<persistable path="/Obfuscator/src/Obfuscator-app.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SWFFile.as" tooltip="Obfuscator/src/org/as3commons/bytecode/swf/SWFFile.as">
+<persistable path="/Obfuscator/src/org/as3commons/bytecode/swf/SWFFile.as"/>
 </file>
 </mruList>
 </workbench>
